@@ -630,8 +630,8 @@ export default class ReactGridLayout extends React.Component<Props, State> {
       }
     }
 
-    e.stopPropagation();
-    e.preventDefault();
+    // e.stopPropagation();
+    // e.preventDefault();
   };
 
   removeDroppingPlaceholder = () => {
